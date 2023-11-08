@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6396c5;
+    /* /* /* background-image: url('img/cloud-1987416_640.webp');
+    background-repeat: no-repeat;
+    background-size: cover; */
+/*      */
+      padding-top: 10px; 
+} 
+
+.circle{
+    width: 1000px;
+    height: 1000px;
+    background-color: #35637c; /* Couleur de fond du cercle */
+    border-radius: 50%; /* Forme le cercle */
+    margin: 0 auto;
+    background-image: url('img/nuage\ \(1\).png' );
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+  
+#weather-results{
+    max-width: 380px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: rgb(221, 221, 240);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+
+}
+input {
+    width: 30%;
+    padding: 5px;
+    /* margin-bottom: 20px; */
+    position: absolute;
+    left: 480px;
+}
+
+button {
+    /* width: 10%; */
+    padding: 5px;
+    background-color: #5186be;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 730px;
+    box-shadow: 40px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    
+}
